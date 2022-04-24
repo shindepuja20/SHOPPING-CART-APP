@@ -1,0 +1,218 @@
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: inherit !important;
+}
+/*---------------------------------------------------------------------------------------*/
+.searchbar {
+  width: 400px !important;
+  margin-left: 617px !important;
+}
+@media screen and (max-width: 992px) {
+  .searchbar {
+    width: 170px !important;
+    margin-right: -30px !important;
+    margin-left: 0 !important;
+  }
+}
+.stylebtn {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 25px !important;
+  text-align: center !important;
+  font-size: 20px !important;
+  position: relative !important;
+}
+.roundedCircle {
+  border-radius: 25px !important;
+  position: absolute;
+  left: 13px;
+  top: -58px !important;
+}
+/*---------------------------------------------------------------------------------------*/
+.home {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.filters {
+  background-color: rgb(64, 83, 90);
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: auto;
+}
+
+.filters > div {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: rgb(254, 252, 252);
+}
+
+.productContainer {
+  display: flex;
+  width: 88%;
+  padding: 10px;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.products {
+  width: 30%;
+  margin: 10px;
+}
+
+.summary {
+  width: 30%;
+}
+
+/*---------------------------------------------------------------------------------------*/
+.flex-container {
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+  /* background-color: DodgerBlue; */
+  width: 200px;
+}
+.flex-container > button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 7px;
+}
+
+.flex-container button:hover {
+  background-color: black;
+}
+.third:hover {
+  background-color: black;
+}
+.third {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  background-color: transparent;
+}
+@media screen and (max-width: 992px) {
+  .flex-container {
+    background-color: rgb(64, 83, 90);
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    width: 100px;
+  }
+  .filters {
+    background-color: rgb(64, 83, 90);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    height: auto;
+    padding-top: 100px;
+  }
+  .title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .third {
+    width: 140px;
+  }
+  .flex-container > button {
+    width: 140px;
+  }
+  .media {
+    width: 140px;
+    font-size: 13px;
+  }
+}
+/*-------------------------------------------PRODUCT CARD--------------------------------------*/
+.cd {
+  width: 280px;
+  height: 240px;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-table;
+  padding: 10px;
+  margin: 10px 10px 10px 10px !important;
+  box-sizing: border-box;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.flex-left {
+  background-color: rgb(255, 255, 255);
+  height: 326px;
+  flex: 5%;
+}
+
+.flex-right {
+  background-color: rgb(255, 255, 255);
+  flex: 55%;
+}
+.stylep {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.stylename {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.maindivflex {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  margin-top: 40px;
+}
+@media (max-width: 800px) {
+  .flex-c {
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .stylep {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .stylename {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .maindivflex {
+    margin-top: 20px;
+  }
+  .resizebtn {
+    width: 80px !important;
+    height: 40px !important;
+    margin-bottom: -5px !important;
+  }
+  .resizecartbtn {
+    font-size: 15px !important;
+    margin-bottom: 10px;
+  }
+  .mediasrc {
+    width: 400px;
+    height: 550px;
+  }
+}
